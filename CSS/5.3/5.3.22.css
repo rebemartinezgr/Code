@@ -1,0 +1,49 @@
+
+
+div.exampletransitione div.transition  {
+	background-color: blue;
+	-moz-transition: all 5s linear;
+}
+
+div.exampletransitione:hover div.transition {
+	background-color:yellow;
+	-moz-transform: translatex(-600px) rotate(360deg);
+} 
+
+#sandbox{
+	border: 1px;
+	border-color: rgba(0,0,255, 0.2);
+	border-style: solid;
+	padding: 20px;
+	width: 440px;
+	z-index: 2;
+	margin: 150px 0 0 700px;
+	overflow: hidden;
+	font-size: 16px;
+	color: rgba(0,0,0, 0.6);
+	font-family:  "goudy-bookletter-1911-1", "goudy-bookletter-1911-2", "Bas-kerville", "Georgia",Arial, serif;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px 1px white;
+}
+
+h1 {
+	margin: 0 0 20px 0;
+	font-size: 56px;
+	word-spacing: 2px;
+}
+div h1 abbr {
+	color: #ff2166;
+	font-size: 130%;
+	border-bottom: 1px dashed #888;
+	text-decoration:none;
+	cursor: help;
+	text-shadow: 0.5px 0.5px 1px #333;
+}
+p {
+	font-size: 30px;
+	width: auto;
+	margin: 0;
+	line-height: 50px;
+}

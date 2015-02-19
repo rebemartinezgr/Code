@@ -1,0 +1,39 @@
+
+
+body{
+	background-color: blue;
+}
+
+#sandbox{
+	border: 1px;
+	border-color: rgb(21,11,11);
+	border-style: solid;
+	padding: 20px;
+	width: 440px;
+	z-index: 2;
+	margin: 40px 0 0 30px;
+	overflow: hidden;
+	font-size: 16px;
+	color: black;
+	font-family:  "goudy-bookletter-1911-1", "goudy-bookletter-1911-2", "Bas-kerville", "Georgia", serif;
+}
+
+h1 {
+	margin: 0 0 20px 0;
+	font-size: 56px;
+	word-spacing: 2px;
+}
+div h1 abbr {
+	color: #ff2166;
+	font-size: 130%;
+	border-bottom: 1px dashed #888;
+	text-decoration:none;
+	cursor: help;
+}
+p {
+	font-size: 30px;
+	width: auto;
+	margin: 0;
+	line-height: 50px;
+}
+
