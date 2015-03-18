@@ -1,0 +1,9 @@
+window.onload = function() {
+if (Modernizr.applicationcache) {
+	alert("acepta applicationcache");
+} else {
+	alert("no acepta  applicationcache");
+}
+}
+/*canvas, video, video.ogg, localstorage, webworkers, applicationcache,
+geolocation, input.autofocus, history*/
